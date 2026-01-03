@@ -1,9 +1,10 @@
 def classify_career_readiness(students):
     results = []
 
-    for student in students:
-        name = student["name"]
-        gpa = student["gpa"]
+    for i in range(len(students)):
+    student = students[i]
+    name = student["name"]
+    gpa = student["gpa"]
 
         if gpa >= 3.0:
             readiness = "High"
