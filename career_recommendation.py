@@ -6,12 +6,12 @@ def classify_career_readiness(students):
     name = student["name"]
     gpa = student["gpa"]
 
-        if gpa >= 3.0:
-            readiness = "High"
-        elif gpa >= 2.0:
-            readiness = "Medium"
-        else:
-            readiness = "Low"
+if gpa >= 3.2:
+    readiness = "High"
+elif gpa >= 2.2:
+    readiness = "Medium"
+else:
+    readiness = "Low"
 
         results.append({
             "name": name,
